@@ -83,6 +83,11 @@ namespace ExamenSegundoParcial
             //{
                 //MessageBox.Show("Es necesario llenar todos los campos");
             //}
+            if(string.IsNullOrEmpty(controlInformacionPago.txtNumTarjeta.Text))
+            {
+                MessageBox.Show("Es necesario llenar todos los campos");
+            }
+
             if (string.IsNullOrEmpty(controlInformacionPago.txtCVV.Text))
             {
                 MessageBox.Show("Es necesario llenar todos los campos");
